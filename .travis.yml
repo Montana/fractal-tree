@@ -1,0 +1,4 @@
+---
+dist: bionic
+language: python
+script: python tree.py
