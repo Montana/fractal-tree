@@ -2,5 +2,6 @@
 dist: bionic
 language: python
 before_install: pip install -r requirements.txt
-script: python tree.py
-allow_failures: python
+script: 
+- export DISPLAY=:0
+- python tree.py
